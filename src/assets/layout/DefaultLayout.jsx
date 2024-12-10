@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 export default function defaultLayout() {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper" data-bs-theme="dark">
         <header>
           <Navbar />
         </header>
