@@ -8,7 +8,7 @@ export default function defaultLayout() {
         <header>
           <Navbar />
         </header>
-        <main className="container py-5">
+        <main className="container p-3">
           <Outlet />
         </main>
         <footer></footer>
